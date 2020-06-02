@@ -1,0 +1,121 @@
+body, input, select, textarea {
+	margin: 2px;
+	font-family: 'tahoma';
+	font-size: 16px;
+}
+.thead {
+	background-color : #9dbec3;
+	font-weight : bold;
+	text-align : center;
+	color: black;
+}
+.tbody {
+	background-color : white;
+	text-align : center;
+}
+.tsum {
+	background-color : #e3eded;
+	text-align : center;
+	color : #4b9079;
+	font-weight : bold;
+}
+table {
+	border: 1px solid #999999;
+}
+td {
+    border-bottom: 1px solid #999999;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+tr:last-child td {
+	border: none;
+}
+td, span {
+	white-space : nowrap;
+}
+.tbody:nth-child(even) {
+	background-color : #edf3f3;
+}
+a:link, a:visited{
+	color:blue;
+	text-decoration : none;
+}
+a:hover {
+	color:#ff4800;
+}
+h1 {
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+	text-decoration: underline;
+}
+
+.ui-datepicker{  
+    width:220px;  
+    font-family:tahoma;  
+    font-size:14px;  
+    text-align:center;  
+}
+
+#sq {
+	visibility: hidden;
+}
+
+#sddm
+{	margin: 0;
+	padding: 0;
+	z-index: 30
+}
+
+#sddm li
+{	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	font: bold 15px arial;
+}
+
+#sddm li a
+{	display: block;
+	margin: 0 1px 0 0;
+	padding: 4px 10px 10px;
+	background: #5970B2;
+	color: #FFF;
+	text-align: center;
+	text-decoration: none;
+}
+
+#sddm li a:hover
+{	
+	background: #49A3FF
+}
+
+#sddm div
+{	
+	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	background: #EAEBD8;
+	border: 1px solid #5970B2
+}
+
+#sddm div a
+{	
+	position: relative;
+	display: block;
+	margin: 0;
+	padding: 5px 10px;
+	width: auto;
+	white-space: nowrap;
+	text-align: left;
+	text-decoration: none;
+	background: #EAEBD8;
+	color: #2875DE;
+}
+
+#sddm div a:hover
+{	
+	background: #49A3FF;
+	color: #FFF
+}
